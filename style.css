@@ -1,0 +1,177 @@
+header {
+	background-color: #d4d0ce;
+	height: 150px;
+}
+
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+    padding: 0 ;
+    margin: -10px;
+	height: 100%;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	margin-right: 20px;
+}
+
+a {
+    border: none;
+    outline: none;
+	font-family: "montserrat", sans-serif;
+    color: #5e5050;
+	text-decoration: none;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+h1 {
+	color: #181414;
+	font-size: 80px;
+	/*padding-left: 11%;*/
+	padding-top: 10%;
+}
+
+h2 {
+	font-size: 50px;
+	padding-left: 11%;
+	padding-right: 11%;
+}
+
+h3 {
+	font-size: 30px;
+	padding-left: 11%;
+	padding-top: 5%;
+}
+
+p {
+	color: #1f1a1a;
+	font-size: 20px;
+	line-height: 15px;
+	padding-left: 11%;
+	padding-right: 11%;;
+	margin: 0;
+
+}
+
+button {
+	width: 120px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+td {
+	padding: 8px;
+}
+
+table {
+	border-collapse: seperate;
+	border-spacing: 8px;
+}
+
+.nav-links {
+	padding-left: 5%;
+}
+
+
+.nav-links a:hover {
+	color:rgb(182, 172, 160);
+}
+
+.logo img {
+	height: 80px;
+	padding-left: 50%;
+}
+
+.container {
+	background-image: url("https://images.pexels.com/photos/7135057/pexels-photo-7135057.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7135057.jpg&fm=jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 250px;
+	width: 100%;
+	margin: auto;
+	padding: 100px;
+}
+
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col {
+	flex-basis: 50%;
+	padding-left: 5%;
+}
+
+.col h1{
+	color: #fff;
+	font-size: 80px;
+	padding-left: 3%;
+}
+
+.col p {
+	font-size: 11px;
+	color: black;
+}
+
+.page-titles h1 {
+	padding-left: 11%;
+}
+
+.learn-about {
+	padding-top: 500px;
+	text-align:center;
+}
+
+.learn-about h2{
+	font-size: 20px;
+}
+
+/*.harmony {
+	align-content: center;
+}*/
+
+.harmony-picture1 {
+	padding-left: 11%;
+	float: left;
+	margin: 5px;
+	width: 40%;
+	height: 25%;
+}
+
+.harmony-description {
+	padding-top: 20px;
+}
+
+.harex1-img {
+	padding-left: 11%;
+	padding-top: 100px;
+	height: 100px;
+	width: 100px;
+}
+
+.notes-titles h1 {
+	text-align: center;
+}
+
+.note-diagram {
+	padding-top: 50px;
+	padding-left: 11%;
+	height: 30%;
+	width: 40%;
+}
+
