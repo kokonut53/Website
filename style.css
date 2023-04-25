@@ -38,6 +38,7 @@ h1 {
 	font-size: 80px;
 	/*padding-left: 11%;*/
 	padding-top: 10%;
+	margin: 0;
 }
 
 h2 {
@@ -55,31 +56,28 @@ h3 {
 p {
 	color: #1f1a1a;
 	font-size: 20px;
-	line-height: 15px;
-	padding-left: 11%;
-	padding-right: 11%;;
+	padding: 11px;
 	margin: 0;
 
 }
 
 button {
 	width: 120px;
-	color: #000;
+	color: #243fb8;
 	font-size: 12px;
-	padding: 12px 0;
+	padding: 1 0;
 	background: #fff;
-	border: 0;
-	outline: none;
+	border: 1%;
+	border-color: #2947ce;
+	outline: #2947ce;
 	cursor: pointer;
+	margin-left: 11px;
 }
 
-td {
-	padding: 8px;
-}
-
-table {
-	border-collapse: seperate;
-	border-spacing: 8px;
+button:hover {
+	background-color: #243fb8;
+	color: white;
+	transition: .5s;
 }
 
 .nav-links {
@@ -120,7 +118,6 @@ table {
 .col h1{
 	color: #fff;
 	font-size: 80px;
-	padding-left: 3%;
 }
 
 .col p {
@@ -137,8 +134,22 @@ table {
 	text-align:center;
 }
 
+.learn-abt-links {
+	display: flex;
+	justify-content: center;
+}
+
 .learn-about h2{
 	font-size: 20px;
+}
+
+.why-learn {
+	text-align: center;
+}
+
+.why-learn p{
+	line-height: 20px;
+	width: 50%;
 }
 
 /*.harmony {
